@@ -1,0 +1,2 @@
+# cool-css
+ For myself
