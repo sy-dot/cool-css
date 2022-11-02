@@ -1,0 +1,27 @@
+.glitch {
+  animation: glitch .5s infinite linear alternate-reverse;
+  -webkit-animation: glitch .5s infinite linear alternate-reverse;
+}
+
+@keyframes glitch {
+  0%, 100% {
+      text-shadow: -1.5px -1.5px 0 #1f640a, 
+                      1.5px 1.5px 0 #f00,
+                      1.5px 1.5px 0 blue;
+  }
+  25% {
+      text-shadow: 1.5px 1.5px 0 #1f640a, 
+                      -1.5px -1.5px 0 #f00,
+                      -1.5px -1.5px 0 blue;
+  }
+  50% {
+      text-shadow: 1.5px -1.5px 0 #1f640a, 
+                      -1.5px 1.5px 0 #f00,
+                      -1.5px -1.5px 0 blue;
+  }
+  75% {
+      text-shadow: 1.5px 1.5px 0 #1f640a, 
+                      1.5px -1.5px 0 #f00,
+                      1.5px 1.5px 0 blue;
+  }
+}
